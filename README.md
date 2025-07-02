@@ -45,13 +45,11 @@ I'm an Informatics student passionate about building and managing reliable IT in
 ---
 
 <p align="center">
-  <a href="https://github.com/faqihudin703">
-    <img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" alt="Your GitHub Stats" />
-  </a>
-  <a href="https://github.com/faqihudin703">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=faqihudin703&layout=compact&theme=dracula" alt="Top Langs" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+ <img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=trueradius=16" width="100%" alt="Contribution Graph" />
+ <br>
+ 
+ <img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="100%" />
+ <br>
+ 
+ <img src="https://github-readme-stats.vercel.app/api/top-langs?username=faqihudin703&layout=compact&theme=radical" alt="Top Langs" width="100%" />
 </p>
