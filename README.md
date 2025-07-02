@@ -1,4 +1,4 @@
-# Hi there, I'm a Faqihudin👋
+# Hi there, I'm Faqihudin👋
 
 I'm an Informatics student passionate about building and managing reliable IT infrastructure. My projects focus on network engineering, server automation, and security.
 
