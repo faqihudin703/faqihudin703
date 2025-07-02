@@ -1,10 +1,10 @@
-### Hi there, I'm a Faqihudin👋
+# Hi there, I'm a Faqihudin👋
 
 I'm an Informatics student passionate about building and managing reliable IT infrastructure. My projects focus on network engineering, server automation, and security.
 
 ---
 
-### 🔧 My Tech Stack & Core Competencies
+## 🔧 My Tech Stack & Core Competencies
 
 <table>
   <tr>
@@ -35,7 +35,7 @@ I'm an Informatics student passionate about building and managing reliable IT in
 
 ---
 
-### 🌱 What I'm Working On
+## 🌱 What I'm Working On
 
 - 🔭 **Architecting a High-Availability Home Lab:** Building a resilient infrastructure using a hybrid x86/ARM server setup, complete with automated DDNS, failover mechanisms, and secure access policies.
 - 🛡️ **Hardening My Network:** Implementing multi-layered security from the network edge (MikroTik) to the endpoint (WARP client) and creating secure private networks with **Tailscale**.
