@@ -1,6 +1,6 @@
 # Hi there, I'm Faqihudin👋
 
-I'm an Informatics student passionate about building and managing reliable IT infrastructure. My projects focus on network engineering, server automation, and security.
+I'm an Informatics student passionate about building and managing reliable IT infrastructure. My projects focus on network engineering, server automation, security, and recently exploring **blockchain technology** for decentralized applications.
 
 ---
 
@@ -35,12 +35,21 @@ I'm an Informatics student passionate about building and managing reliable IT in
 
 ---
 
+## ⛓️ Blockchain & Smart Contracts
+
+- Running **private Ethereum networks** using Geth (PoW & PoA consensus).  
+- Deploying and testing **ERC-20 tokens** and custom smart contracts.  
+- Simulating **DEX interactions** (approve, swap, liquidity pool updates) in a controlled environment. 
+
+---
+
 ## 🌱 What I'm Working On
 
 - 🔭 **Architecting a High-Availability Home Lab:** Building a resilient infrastructure using a hybrid x86/ARM server setup, complete with automated DDNS, failover mechanisms, and secure access policies.
 - 🛡️ **Hardening My Network:** Implementing multi-layered security from the network edge (MikroTik) to the endpoint (WARP client) and creating secure private networks with **Tailscale**.
 - 📊 **Expanding Observability:** Integrating network devices (routers) into a central Grafana dashboard using SNMP and custom exporters for full-stack visibility.
 - 🤖 **Automating Everything:** Developing Python scripts managed by `systemd` to handle routine tasks, system checks, and send real-time alerts to my Telegram bot.
+- ⛓️ **Experimenting with Blockchain:** Running a private Ethereum testbed for token minting, DEX swaps, and smart contract deployment to simulate mainnet conditions.
 
 ---
 
