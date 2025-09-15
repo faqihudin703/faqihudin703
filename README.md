@@ -39,7 +39,9 @@ I'm an Informatics student passionate about building and managing reliable IT in
 
 - Running **private Ethereum networks** using Geth (PoW & PoA consensus).  
 - Deploying and testing **ERC-20 tokens** and custom smart contracts.  
-- Simulating **DEX interactions** (approve, swap, liquidity pool updates) in a controlled environment. 
+- Simulating **DEX interactions** (approve, swap, liquidity pool updates) in a controlled environment.  
+- Exploring **automation with Python scripts** for monitoring blockchain transactions.
+- Building a **Cross-Chain Bridge** using **Node.js**, enabling asset transfer between private Ethereum chains (PoA ↔ PoW) and simulating multi-chain interoperability.  
 
 ---
 
@@ -50,6 +52,7 @@ I'm an Informatics student passionate about building and managing reliable IT in
 - 📊 **Expanding Observability:** Integrating network devices (routers) into a central Grafana dashboard using SNMP and custom exporters for full-stack visibility.
 - 🤖 **Automating Everything:** Developing Python scripts managed by `systemd` to handle routine tasks, system checks, and send real-time alerts to my Telegram bot.
 - ⛓️ **Experimenting with Blockchain:** Running a private Ethereum testbed for token minting, DEX swaps, and smart contract deployment to simulate mainnet conditions.
+- 🌉 **Cross-Chain Development:** Implementing a **Node.js-based bridge** for token transfers across different private Ethereum networks, learning the fundamentals of interoperability used in modern DeFi ecosystems.  
 
 ---
 
