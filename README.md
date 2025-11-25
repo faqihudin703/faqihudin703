@@ -60,8 +60,5 @@ I designed and deployed a live **Cross-Chain Bridge & DeFi Terminal** connecting
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=true&radius=16" width="100%" alt="Contribution Graph" />
   <br>
   
-  <img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="100%" />
-  <br>
-  
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=faqihudin703&layout=compact&theme=radical" alt="Top Langs" width="100%" />
 </p>
