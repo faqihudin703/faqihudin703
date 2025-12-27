@@ -1,6 +1,8 @@
 # Hi there, I'm Faqihudin 👋
 
-I'm an Informatics student transitioning into a **Blockchain Infrastructure Engineer**. I combine my strong background in network engineering and server automation to build resilient, decentralized systems. My focus has shifted from private labs to **architecting multi-chain interoperability protocols** and full-stack DeFi applications.
+I'm an Informatics student transitioning into a **Blockchain Infrastructure Engineer**. I combine my strong background in network engineering and server automation to build resilient, decentralized systems.
+
+My focus has evolved from private labs to **architecting interoperability protocols for the Superchain** (Lisk, Base, Optimism) and building full-stack DeFi ecosystems that bridge the gap between Layer-1 and Layer-2.
 
 ---
 
@@ -11,21 +13,22 @@ I'm an Informatics student transitioning into a **Blockchain Infrastructure Engi
     <td valign="top" width="50%">
       <strong>⛓️ Blockchain & Web3 Development</strong>
       <ul>
-        <li><strong>Smart Contracts:</strong> Solidity, OpenZeppelin (Upgradeable/Proxy Pattern)</li>
+        <li><strong>Smart Contracts:</strong> Solidity, OpenZeppelin (Upgradeable/Proxy, AccessControl)</li>
+        <li><strong>Standards:</strong> ERC-20 (DeFi), ERC-721 & ERC-1155 (NFT Bridge)</li>
+        <li><strong>Architecture:</strong> Lock-and-Mint Bridges, Dual-Engine DEX (AMM + StableSwap)</li>
         <li><strong>Frameworks:</strong> Hardhat, Ethers.js v6</li>
-        <li><strong>Architecture:</strong> Cross-Chain Bridges (Lock-and-Mint), Hybrid Relayers</li>
+        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Arbitrum, Optimism</li>
         <li><strong>Frontend DApp:</strong> React.js, Vite, Tailwind CSS</li>
-        <li><strong>Network Interaction:</strong> Public Testnets (Sepolia, Base, Hoodi)</li>
       </ul>
     </td>
     <td valign="top" width="50%">
       <strong>🔌 Infrastructure & DevOps</strong>
       <ul>
+        <li><strong>Relayer Engine:</strong> Custom Node.js Event Listeners (Concurrency & Idempotency)</li>
         <li><strong>Server Management:</strong> Linux (Ubuntu/Armbian), Docker & Compose</li>
-        <li><strong>Networking:</strong> Advanced MikroTik (Mangle/QoS), Tailscale Mesh</li>
-        <li><strong>Security:</strong> Cloudflare Tunnel (Zero Trust), UFW</li>
-        <li><strong>Automation:</strong> Node.js (Long-running Services), Python, n8n</li>
-        <li><strong>Observability:</strong> Grafana, Prometheus</li>
+        <li><strong>Networking:</strong> Advanced MikroTik, Tailscale Mesh, Cloudflare Tunnel (Zero Trust)</li>
+        <li><strong>API Middleware:</strong> Node.js Rate-Limiter (Spam Protection)</li>
+        <li><strong>Observability:</strong> Grafana, Prometheus, PM2 Monitoring</li>
       </ul>
     </td>
   </tr>
@@ -33,26 +36,29 @@ I'm an Informatics student transitioning into a **Blockchain Infrastructure Engi
 
 ---
 
-## 🚀 Featured Project: Multi-Chain DeFi Ecosystem
+## 🚀 Featured Projects
 
-I designed and deployed a live **Cross-Chain Bridge & DeFi Terminal** connecting **Sepolia**, **Hoodi**, and **Base** Testnets.
+### 1. Santara Terminal (Lisk Hackathon Build)
+A high-performance liquidity layer bridging **Lisk Sepolia**, **Base Sepolia** and **Sepolia**.
+- **Architecture:** "Lock-and-Mint" bridge with automated **Node.js Relayers**.
+- **Economic Model:** Implemented **Protocol Fee (Payable Functions)** logic, allowing the bridge to generate revenue in Native ETH from every Lock/Burn transaction.
+- **Security:** Built-in **Idempotency** checks to prevent double-spending and replay attacks.
+- **Stack:** React (Vite), Ethers v6, Hardhat, Dockerized Relayer.
 
-### 🏗️ Architecture Highlights:
-- **Upgradeable Smart Contracts:** Implemented **Transparent Proxy Pattern** to manage protocol upgrades across multiple chains without changing contract addresses.
-- **Hybrid Relayer Engine:** Engineered a custom Node.js relayer running on **Armbian (Dockerized)** that utilizes:
-  - **Concurrency:** Non-blocking event listeners + polling backups.
-  - **Fault Tolerance:** Idempotency checks to prevent double-spending.
-  - **Data Safety:** "Deferred Flush" logic to protect SD Card lifespan while ensuring zero data loss during power outages (UPS backed).
-- **Frontend Experience:** Built a responsive **React/Vite DApp** for Token Swaps (DEX), Liquidity Management, and Cross-Chain Bridging.
+### 2. Homelab Omni-Chain Ecosystem
+An experimental DeFi & NFT platform connecting 5 chains: **Sepolia, Hoodi, Base Sepolia, Arbitrum Sepolia, and Optimism Sepolia**.
+- **Dual-Engine DEX:** Integrated Standard AMM ($x*y=k$) for volatiles and **StableSwap** invariant for pegged assets.
+- **Cross-Chain NFT Bridge:** Enables users to bridge NFTs between L1 and L2s while maintaining ownership history.
+- **Dynamic Metadata with Rate-Limiting:** Users can customize NFT traits (e.g., Renaming). To secure this, I built a dedicated **Node.js API Service** that acts as a **Rate Limiter**, preventing spam and abuse during the metadata update process.
 
 ---
 
 ## 🔧 Ongoing Engineering & Research
 
-- **🌉 V3 Multi-Chain Router:** successfully upgraded my bridge from a 1-to-1 model to a **1-to-N Router**, enabling dynamic asset routing between Sepolia, Hoodi, and Base Layer-2 using a single consistent contract address.
-- **🛡️ Infrastructure Hardening:** Running critical blockchain infrastructure on a low-power **Armbian STB cluster**, secured behind **Cloudflare Tunnels** and monitored via **Tailscale**, ensuring high availability even without a static public IP.
-- **📊 Real-World Simulation:** Moved away from private chains to **Public Testnets** to handle real-world challenges like gas management, chain reorganizations (reorgs), and RPC latency.
-- **🤖 Automated DevOps:** Managing `systemd` services and Docker containers with health checks to ensure my Relayer and Node services maintain 99.9% uptime.
+- **🌉 The Superchain Vision:** Expanding infrastructure to support the **Optimism Superchain** stack, ensuring seamless asset routing between OP Mainnet, Base, and Lisk.
+- **🛡️ Infrastructure Hardening:** Running critical blockchain infrastructure on a low-power **Armbian STB cluster**, secured behind **Cloudflare Tunnels** to ensure high availability without exposing public IPs.
+- **📊 Production-Grade Relayers:** Moving from simple polling to **Event-Driven Architectures** capable of handling RPC latency, Chain Reorgs, and nonce management automatically.
+- **🤖 Automated DevOps:** Managing CI/CD pipelines and Docker container health checks to ensure 99.9% uptime for bridge relayers.
 
 ---
 
