@@ -2,7 +2,7 @@
 
 I'm an Informatics student transitioning into a **Blockchain Infrastructure Engineer**. I combine my strong background in network engineering and server automation to build resilient, decentralized systems.
 
-My focus has evolved from private labs to **architecting interoperability protocols for the Superchain** (Lisk, Base, Optimism) and building full-stack DeFi ecosystems that bridge the gap between Layer-1, Layer-2, and Real World Assets (RWA).
+My focus has evolved from private labs to **architecting interoperability protocols for the Superchain** (Lisk, Base, Optimism) and **exploring the frontier of Modular AI solutions** by merging Decentralized Compute (DePIN) with Intelligent NFTs (iNFT) on the 0G Network.
 
 ---
 
@@ -14,22 +14,22 @@ My focus has evolved from private labs to **architecting interoperability protoc
       <strong>⛓️ Blockchain & Web3 Development</strong>
       <ul>
         <li><strong>Smart Contracts:</strong> Solidity, OpenZeppelin (Upgradeable/Proxy, AccessControl)</li>
-        <li><strong>Standards:</strong> ERC-20 (DeFi), ERC-721 & ERC-1155 (NFT)</li>
+        <li><strong>Standards:</strong> ERC-20 (DeFi), ERC-721/1155 (NFT), ERC-7857 (AI Agent NFT)</li>
         <li><strong>Advanced Integrations:</strong> Account Abstraction (Coinbase Smart Wallet SDK)</li>
-        <li><strong>Architecture:</strong> Lock-and-Mint Bridges, Dual-Engine DEX (AMM + StableSwap)</li>
+        <li><strong>Architecture:</strong> Lock-and-Mint Bridges, Dual-Engine DEX, <strong>Modular DA Layers</strong></li>
         <li><strong>Frameworks:</strong> Hardhat, Ethers.js v6</li>
-        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Arbitrum, Optimism</li>
+        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Optimism, 0G (ZeroGravity)</li>
         <li><strong>Frontend DApp:</strong> React.js, Vite, Tailwind CSS, OnchainKit</li>
       </ul>
     </td>
     <td valign="top" width="50%">
-      <strong>🔌 Infrastructure & DevOps</strong>
+      <strong>🔌 Infrastructure, AI & DevOps</strong>
       <ul>
         <li><strong>Relayer Engine:</strong> Custom Node.js Event Listeners (Concurrency & Idempotency)</li>
+        <li><strong>AI Compute (DePIN):</strong> Hosting Local LLM (Qwen) via <strong>0G Storage/Compute Node</strong></li>
         <li><strong>Oracle Engineering:</strong> Custom Real-time Data Feeds (CEX API to On-Chain)</li>
         <li><strong>Server Management:</strong> Linux (Ubuntu/Armbian), Docker & Compose</li>
         <li><strong>Networking:</strong> Advanced MikroTik, Tailscale Mesh, Cloudflare Tunnel (Zero Trust)</li>
-        <li><strong>API Middleware:</strong> Node.js Rate-Limiter (Spam Protection)</li>
         <li><strong>Observability:</strong> Grafana, Prometheus, PM2 Monitoring</li>
       </ul>
     </td>
@@ -54,9 +54,16 @@ A decentralized savings protocol on **Base Sepolia** that brings Forex-like util
 - **Consumer UX:** Integrated **Coinbase Smart Wallet** to enable Passkey/Biometric login, removing the friction of seed phrases for mass adoption.
 - **Smart Architecture:** Built using **Transparent Proxy Pattern** (Upgradeable) to ensure future scalability and state preservation.
 
-### 3. Homelab Omni-Chain Ecosystem
+### 3. 0G Intelligent NFT (iNFT) & AI-Compute Lab
+An experimental **DePIN (Decentralized Physical Infrastructure Network)** implementation on the **0G Galileo Testnet**, proving the concept of on-chain AI Agents.
+- **DePIN Architecture:** Repurposed a local **Acer Server** to act as a decentralized **AI Compute Node** within the 0G Galileo Network.
+- **Local LLM Inference:** The server hosts and runs the **Qwen** model locally, powering the intelligence behind the NFTs without relying on centralized APIs like OpenAI.
+- **Interactive iNFTs:** Built a dApp where users can **Mint iNFTs**, transfer ownership, and **Chat directly with the AI Agent** attached to the NFT (processed via the local 0G Compute Node).
+- **Status:** Functional Prototype / Workshop Build.
+
+### 4. Homelab Omni-Chain Ecosystem
 An experimental DeFi & NFT platform connecting 5 chains: **Sepolia, Hoodi, Base Sepolia, Arbitrum Sepolia, and Optimism Sepolia**.
-- **Dual-Engine DEX:** Integrated Standard AMM ($x*y=k$) for volatiles and **StableSwap** invariant for pegged assets.
+- **Dual-Engine DEX:** Integrated Standard AMM ($x*y=k$) on all chain for volatiles and **StableSwap** invariant only Sepolia for pegged assets.
 - **Cross-Chain NFT Bridge:** Enables users to bridge NFTs between L1 and L2s while maintaining ownership history.
 - **Dynamic Metadata with Rate-Limiting:** Users can customize NFT traits (e.g., Renaming). To secure this, I built a dedicated **Node.js API Service** that acts as a **Rate Limiter**, preventing spam and abuse during the metadata update process.
 
@@ -64,10 +71,10 @@ An experimental DeFi & NFT platform connecting 5 chains: **Sepolia, Hoodi, Base 
 
 ## 🔧 Ongoing Engineering & Research
 
-- **🌉 The Superchain Vision:** Expanding infrastructure to support the **Optimism Superchain** stack, ensuring seamless asset routing between OP Mainnet, Base, and Lisk.
+- **🌉 The Superchain Vision:** Expanding infrastructure to support the **Optimism Superchain** stack, ensuring seamless asset routing between OP Sepolia, Base Sepolia, and Lisk Sepolia.
+- **🧠 Modular AI Integration:** Researching high-throughput data availability on **0G Galileo Testnet** to store massive AI datasets on-chain.
 - **🛡️ Infrastructure Hardening:** Running critical blockchain infrastructure on a low-power **Armbian STB cluster**, secured behind **Cloudflare Tunnels** to ensure high availability without exposing public IPs.
 - **📊 Production-Grade Relayers:** Moving from simple polling to **Event-Driven Architectures** capable of handling RPC latency, Chain Reorgs, and nonce management automatically.
-- **🤖 Automated DevOps:** Managing CI/CD pipelines and Docker container health checks to ensure 99.9% uptime for bridge relayers and oracle nodes.
 
 ---
 
