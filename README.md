@@ -18,7 +18,7 @@ My focus has evolved from private labs to **architecting interoperability protoc
         <li><strong>Advanced Integrations:</strong> Account Abstraction (Coinbase Smart Wallet SDK)</li>
         <li><strong>Architecture:</strong> Lock-and-Mint Bridges, Dual-Engine DEX, <strong>Modular DA Layers</strong></li>
         <li><strong>Frameworks:</strong> Hardhat, Ethers.js v6</li>
-        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Optimism, 0G (ZeroGravity)</li>
+        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Optimism, Arbitrum, 0G (ZeroGravity)</li>
         <li><strong>Frontend DApp:</strong> React.js, Vite, Tailwind CSS, OnchainKit</li>
       </ul>
     </td>
@@ -47,12 +47,12 @@ A high-performance liquidity layer bridging **Lisk Sepolia**, **Base Sepolia** a
 - **Security:** Built-in **Idempotency** checks to prevent double-spending and replay attacks.
 - **Stack:** React (Vite), Ethers v6, Hardhat, Dockerized Relayer.
 
-### 2. Santara Yield & Forex (Base Hackathon Build)
-A decentralized savings protocol on **Base Sepolia** that brings Forex-like utility to the Santara Ecosystem.
-- **Circular Economy:** Directly integrated with *Santara Terminal*. Users deposit bridged assets (wSAN/ETH) to swap and earn yield in a localized currency representation (IDRX).
-- **Custom Oracle Node:** Engineered a secure, self-hosted Oracle bot that fetches **Real-Time IDR/ETH rates** from **Indodax** (Indonesian Exchange) and pushes updates on-chain, enabling accurate local pricing.
-- **Consumer UX:** Integrated **Coinbase Smart Wallet** to enable Passkey/Biometric login, removing the friction of seed phrases for mass adoption.
-- **Smart Architecture:** Built using **Transparent Proxy Pattern** (Upgradeable) to ensure future scalability and state preservation.
+### 2. Santara Protocol (Base Hackathon Build)
+An end-to-end decentralized banking infrastructure on **Base Sepolia** designed to bring the Indonesian Rupiah (IDR) on-chain.
+- **Direct Settlement Engine:** Solves the friction of "double conversion" (IDR → USD → ETH) by enabling direct swaps between ETH and a Rupiah-pegged stablecoin (**IDRX**) using a custom AMM.
+- **Proprietary Oracle Node:** Engineered a secure, self-hosted Oracle bot that aggregates **Real-Time IDR/ETH rates** from **Indodax** and injects them on-chain with deviation-based updates.
+- **Sustainable Yield Architecture:** Implements a circular economy where users stake IDRX in the **NXS Vault** to earn yield, backed by a **Treasury Redemption** mechanism (burn NXS for USDC).
+- **Next-Gen UX:** Fully integrated with **Coinbase Smart Wallet** (Passkeys) and **OnchainKit**, removing seed phrase friction for mass adoption in emerging markets.
 
 ### 3. 0G Intelligent NFT (iNFT) & AI-Compute Lab
 An experimental **DePIN (Decentralized Physical Infrastructure Network)** implementation on the **0G Galileo Testnet**, proving the concept of on-chain AI Agents.
@@ -79,5 +79,11 @@ An experimental DeFi & NFT platform connecting 5 chains: **Sepolia, Hoodi, Base 
 ---
 
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="100%" />
+  <br>
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=faqihudin703&layout=compact&theme=radical" alt="Top Languages" width="100%" />
+  <br>
+  
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=true&radius=16" width="100%" alt="Contribution Graph" />
 </p>
