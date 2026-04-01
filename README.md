@@ -1,89 +1,114 @@
-# Hi there, I'm Faqihudin 👋
+<div align="center">
 
-I'm an Informatics student transitioning into a **Blockchain Infrastructure Engineer**. I combine my strong background in network engineering and server automation to build resilient, decentralized systems.
+# Faqihuddin — Santara Labs
+### Blockchain Infrastructure Engineer · Cirebon, Indonesia
 
-My focus has evolved from private labs to **architecting interoperability protocols for the Superchain** (Lisk, Base, Optimism) and **exploring the frontier of Modular AI solutions** by merging Decentralized Compute (DePIN) with Intelligent NFTs (iNFT) on the 0G Network.
+*Semester 6 Informatics student building decentralized infrastructure for the Indonesian market.*
+*Solo founder. Real products. Live on testnet/devnet.*
 
----
+[![Colosseum Frontier 2026](https://img.shields.io/badge/Colosseum_Frontier-2026-f5a623?style=flat-square)](https://colosseum.com/frontier)
+[![Solana Network State](https://img.shields.io/badge/Solana_Network_State-Spring_2026-9945FF?style=flat-square)](https://ns.com)
+[![Superteam Indonesia](https://img.shields.io/badge/Superteam-Indonesia-39d98a?style=flat-square)](https://superstudy.fun)
 
-## 🛠️ Tech Stack & Core Competencies
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>⛓️ Blockchain & Web3 Development</strong>
-      <ul>
-        <li><strong>Smart Contracts:</strong> Solidity, OpenZeppelin (Upgradeable/Proxy, AccessControl)</li>
-        <li><strong>Standards:</strong> ERC-20 (DeFi), ERC-721/1155 (NFT), ERC-7857 (AI Agent NFT)</li>
-        <li><strong>Advanced Integrations:</strong> Account Abstraction (Coinbase Smart Wallet SDK)</li>
-        <li><strong>Architecture:</strong> Lock-and-Mint Bridges, Dual-Engine DEX, <strong>Modular DA Layers</strong></li>
-        <li><strong>Frameworks:</strong> Hardhat, Ethers.js v6</li>
-        <li><strong>Ecosystems:</strong> Ethereum, Lisk, Base, Optimism, Arbitrum, 0G (ZeroGravity)</li>
-        <li><strong>Frontend DApp:</strong> React.js, Vite, Tailwind CSS, OnchainKit</li>
-      </ul>
-    </td>
-    <td valign="top" width="50%">
-      <strong>🔌 Infrastructure, AI & DevOps</strong>
-      <ul>
-        <li><strong>Relayer Engine:</strong> Custom Node.js Event Listeners (Concurrency & Idempotency)</li>
-        <li><strong>AI Compute (DePIN):</strong> Hosting Local LLM (Qwen) via <strong>0G Storage/Compute Node</strong></li>
-        <li><strong>Oracle Engineering:</strong> Custom Real-time Data Feeds (CEX API to On-Chain)</li>
-        <li><strong>Server Management:</strong> Linux (Ubuntu/Armbian), Docker & Compose</li>
-        <li><strong>Networking:</strong> Advanced MikroTik, Tailscale Mesh, Cloudflare Tunnel (Zero Trust)</li>
-        <li><strong>Observability:</strong> Grafana, Prometheus, PM2 Monitoring</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+</div>
 
 ---
 
-## 🚀 Featured Projects
+## About
 
-### 1. Santara Terminal (Lisk Hackathon Build)
-A high-performance liquidity layer bridging **Lisk Sepolia**, **Base Sepolia** and **Sepolia**.
-- **Architecture:** "Lock-and-Mint" bridge with automated **Node.js Relayers**.
-- **Economic Model:** Implemented **Protocol Fee (Payable Functions)** logic, allowing the bridge to generate revenue in Native ETH from every Lock/Burn transaction.
-- **Security:** Built-in **Idempotency** checks to prevent double-spending and replay attacks.
-- **Stack:** React (Vite), Ethers v6, Hardhat, Dockerized Relayer.
+I started from networking and server administration, then pivoted into blockchain out of curiosity — and ended up building a full DeFi + AI ecosystem under **Santara Labs** in under a year. Everything is self-hosted on a homelab built from recycled hardware, running 24/7 behind zero open inbound ports.
 
-### 2. Santara Protocol (Base Hackathon Build)
-An end-to-end decentralized banking infrastructure on **Base Sepolia** designed to bring the Indonesian Rupiah (IDR) on-chain.
-- **Direct Settlement Engine:** Solves the friction of "double conversion" (IDR → USD → ETH) by enabling direct swaps between ETH and a Rupiah-pegged stablecoin (**IDRX**) using a custom AMM.
-- **Proprietary Oracle Node:** Engineered a secure, self-hosted Oracle bot that aggregates **Real-Time IDR/ETH rates** from **Indodax** and injects them on-chain with deviation-based updates.
-- **Sustainable Yield Architecture:** Implements a circular economy where users stake IDRX in the **NXS Vault** to earn yield, backed by a **Treasury Redemption** mechanism (burn NXS for USDC).
-- **Next-Gen UX:** Fully integrated with **Coinbase Smart Wallet** (Passkeys) and **OnchainKit**, removing seed phrase friction for mass adoption in emerging markets.
+Background in **network engineering** (Mikrotik, Tailscale, Cloudflare Zero Trust) directly shapes how I think about blockchain infrastructure — decentralized, sovereign, and security-first at every layer.
 
-### 3. 0G Intelligent NFT (iNFT) & AI-Compute Lab
-An experimental **DePIN (Decentralized Physical Infrastructure Network)** implementation on the **0G Galileo Testnet**, proving the concept of on-chain AI Agents.
-- **DePIN Architecture:** Repurposed a local **Acer Server** to act as a decentralized **AI Compute Node** within the 0G Galileo Network.
-- **Local LLM Inference:** The server hosts and runs the **Qwen** model locally, powering the intelligence behind the NFTs without relying on centralized APIs like OpenAI.
-- **Interactive iNFTs:** Built a dApp where users can **Mint iNFTs**, transfer ownership, and **Chat directly with the AI Agent** attached to the NFT (processed via the local 0G Compute Node).
-- **Status:** Functional Prototype / Workshop Build.
-
-### 4. Homelab Omni-Chain Ecosystem
-An experimental DeFi & NFT platform connecting 5 chains: **Sepolia, Hoodi, Base Sepolia, Arbitrum Sepolia, and Optimism Sepolia**.
-- **Dual-Engine DEX:** Integrated Standard AMM ($x*y=k$) on all chain for volatiles and **StableSwap** invariant only Sepolia for pegged assets.
-- **Cross-Chain NFT Bridge:** Enables users to bridge NFTs between L1 and L2s while maintaining ownership history.
-- **Dynamic Metadata with Rate-Limiting:** Users can customize NFT traits (e.g., Renaming). To secure this, I built a dedicated **Node.js API Service** that acts as a **Rate Limiter**, preventing spam and abuse during the metadata update process.
+Currently building **Santara Weather Oracle** for the Colosseum Frontier hackathon — an on-chain weather data oracle for Indonesia sourcing from BMKG at village/district granularity, with 5 active nodes and 10K+ aggregation rounds completed.
 
 ---
 
-## 🔧 Ongoing Engineering & Research
+## Santara Labs — Product Ecosystem
 
-- **🌉 The Superchain Vision:** Expanding infrastructure to support the **Optimism Superchain** stack, ensuring seamless asset routing between OP Sepolia, Base Sepolia, and Lisk Sepolia.
-- **🧠 Modular AI Integration:** Researching high-throughput data availability on **0G Galileo Testnet** to store massive AI datasets on-chain.
-- **🛡️ Infrastructure Hardening:** Running critical blockchain infrastructure on a low-power **Armbian STB cluster**, secured behind **Cloudflare Tunnels** to ensure high availability without exposing public IPs.
-- **📊 Production-Grade Relayers:** Moving from simple polling to **Event-Driven Architectures** capable of handling RPC latency, Chain Reorgs, and nonce management automatically.
+All products are live on testnet/devnet, upgradeable via proxy, and actively maintained.
+
+| Product | Chain | Description |
+|---|---|---|
+| 🌤️ **Santara Weather Oracle** | Solana Devnet | BMKG weather data on-chain · multi-node consensus · 52 feeds · village-level granularity · tiered subscription API |
+| 🏛️ **Santara BI Oracle** | Solana Devnet | Bank Indonesia official forex rates on-chain · 1 currency = 1 PDA · public infrastructure for Indonesian DeFi |
+| 🌉 **Santara Terminal** | ETH L1 & L2s ↔ Solana | Cross-chain bridge + DEX · custom relay architecture · event-driven message passing |
+| 🔄 **Santara Protocol** | Base Sepolia | ETH/IDR direct swap via custom oracle (Indodax) · yield-bearing deposits · deflationary reward token |
+| 🏦 **Santara Station** | Arbitrum Sepolia | ETH lending with USDC collateral · oracle-based pricing from Binance · fixed-term borrowing |
+| 🧠 **Santara Cortex** | Solana ↔ 0G Galileo | First cross-chain AI NFT protocol (iNFT) · Solana as identity layer · 0G as AI compute · chain abstraction via Phantom |
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="100%" />
-  <br>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=faqihudin703&layout=compact&theme=radical" alt="Top Languages" width="100%" />
-  <br>
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=true&radius=16" width="100%" alt="Contribution Graph" />
-</p>
+## Tech Stack
+
+| Kategori | Teknologi |
+| :--- | :--- |
+| **Blockchain** | Rust / Anchor · Solidity · Hardhat · Ethers.js v6 · Transparent Proxy (EIP-1967) · PDA / Account Model · Ethereum · Solana · Arbitrum · Base · 0G Galileo |
+| **Backend & Data** | Node.js · Python FastAPI · PM2 · Docker · Supabase / PostgreSQL · Signature-cursor Indexer · Multi-tier REST API · Polling-based Oracle Node |
+| **Infrastructure & Networking** | Mikrotik + 3-layer NAT · Tailscale mesh VPN (one-way sharing) · Cloudflare Tunnel (Zero Trust) · Zero open inbound ports · Homelab: Acer V5-431P + STB HG680P · UPS · aaPanel |
+| **Frontend** | React / Vite · Tailwind CSS · Ethers.js · @solana/web3.js · Borsh (browser-native) |
+
+---
+
+## Homelab Infrastructure
+
+Running production-grade infrastructure on recycled hardware:
+
+- **Acer V5-431P** — Intel Pentium 2117U, 12GB RAM, 500GB HDD → main server (Docker + PM2)
+- **STB HG680P** — ARM Cortex-A53, 2GB RAM → lightweight containers + Tailscale subnet router
+- **Network** — Mikrotik router · 3 NAT layers · zero exposed ports · Cloudflare Tunnel for public access
+- **Oracle Nodes** — 1 homelab anchor + 4 AWS EC2 (Free Tier) · all zero inbound · one-way Tailscale
+
+Everything runs without downtime, without cloud dependency for core infrastructure.
+
+---
+
+## Oracle Node Architecture
+
+**BMKG API** (3-hourly) <br>
+⬇ <br>
+**6 Oracle Nodes** (homelab + AWS EC2) <br>
+⬇ *submit_data()* <br>
+**Santara Weather Oracle Program** (Solana Devnet) <br>
+⬇ *median aggregation (threshold consensus)* <br>
+**On-chain FeedData PDA** (per location) <br>
+⬇ <br>
+**Node.js Indexer** (signature cursor, 1-hour polling) <br>
+⬇ <br>
+**Supabase PostgreSQL** <br>
+⬇ <br>
+**Python FastAPI** (tiered access: Starter / Basic / Pro / Business / Enterprise) <br>
+⬇ <br>
+**React Dashboard + Public API**
+
+**Live stats:** `10,071 rounds` · `52 feeds` · `26,247 tx` · `99.99% success rate`
+
+---
+
+## Currently
+
+- 🏆 **Colosseum Frontier Hackathon** (Apr 6 – May 11, 2026) — Santara Weather Oracle
+- 🌐 **Solana Network State Spring 2026** — virtual participant, building alongside ecosystem founders
+- 📚 **Semester 6 Informatika** — while managing all of the above
+
+---
+
+## Open For
+
+- Blockchain infrastructure internships
+- Oracle / data infrastructure collaborations
+- DeFi protocol technical consulting
+- Anything that involves building something real
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=faqihudin703&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0a0a0a&title_color=f5a623&icon_color=f5a623&text_color=e8e8e8" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=faqihudin703&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&title_color=f5a623&text_color=e8e8e8" width="49%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=faqihudin703&theme=react-dark&hide_border=true&area=true&radius=16" width="100%" alt="Contribution Graph" />
+
+</div>
